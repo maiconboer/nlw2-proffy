@@ -32,16 +32,16 @@
 
 ### Web
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-landing.png" width="400px">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-list.png" width="400px">
+   <img src=".github/web-landing.png" width="400px">
+   <img src=".github/web-list.png" width="400px">
 </div>
 
 ### Mobile 
 <div style="display: flex; flex-direction: 'row';">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/mobile-splash.png" width="180">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/mobile-onboarding.png" width="180">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/mobile-home.png" width="180">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/mobile-favoritos.png" width="180">
+   <img src=".github/mobile-splash.png" width="180">
+   <img src=".github/mobile-onboarding.png" width="180">
+   <img src=".github/mobile-home.png" width="180">
+   <img src=".github/mobile-favoritos.png" width="180">
 </div>
 
 # :computer: Tecnologias
@@ -81,11 +81,17 @@ $ git clone https://github.com/maiconboer/nlw2-proffy.git
 ```
 ### 📦 Rode o Servidor/API
 
+Importante!
+
+Crie dentro da pasta ```proffy_server / src / database```  um arquivo chamado ```database.sqlite```
+
 ```bash
 # Acesse a pasta do servidor
 $ cd proffy_server
 # Instale as depedencias
 $ yarn install
+# Rode as migrations para criar as tabelas no banco de dados
+$ yarn knex:migrate
 # Inicie o servidor
 $ yarn start
 ```
