@@ -22,27 +22,31 @@
   </a>
 </p>
 
-> :rocket: Conectando professores e estudantes, Next Level Week#2 @Rocketseat
 
-# :pushpin: Tabela de Conteúdo
+<p align="center">Conectando professores e estudantes, Next Level Week#2 @Rocketseat</p>
+
+
+# Especificações
 
 * [Tecnologias](#computer-tecnologias)
 * [Funcionalidades](#rocket-funcionalidades)
 * [Como rodar](#construction_worker-como-rodar)
 
-### Web
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+
+<p align="center">Web</p>
+<p align="center">
    <img src=".github/web-landing.png" width="400px">
    <img src=".github/web-list.png" width="400px">
-</div>
+</p>
 
-### Mobile 
-<div style="display: flex; flex-direction: 'row';">
+
+<p align="center">Mobile</p>
+<p align="center">
    <img src=".github/mobile-splash.png" width="180">
    <img src=".github/mobile-onboarding.png" width="180">
    <img src=".github/mobile-home.png" width="180">
    <img src=".github/mobile-favoritos.png" width="180">
-</div>
+</p>
 
 # :computer: Tecnologias
 Utiliza as seguintes tecnologias:
