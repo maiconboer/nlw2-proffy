@@ -23,7 +23,7 @@
 </p>
 
 
-<p align="center">Conectando professores e estudantes, Next Level Week#2 @Rocketseat</p>
+<p align="center">Conectando professores e estudantes, Next Level Week2 @Rocketseat</p>
 
 
 # Especificações
